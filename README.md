@@ -9,32 +9,35 @@ There are two parts:
         <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 #### 2- Adding the config to,
-  - either your end of your html like this:
-    <script> 
-    var firebaseConfig = {
-      apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      appId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      measurementId: "xxxxxxxxxxxxxxxxxxxxxxxxxx"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
-  - or for better design, create a firebaseConfig.js then use the variable 
-    var firebaseConfig = {
-      apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      appId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
-      measurementId: "xxxxxxxxxxxxxxxxxxxxxxxxxx"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+- Either your end of your html like this:
+
+        <script>
+        var firebaseConfig = {
+        apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        appId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        measurementId: "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+
+- Or for better design, create a firebaseConfig.js then use the variable:
+
+        var firebaseConfig = {
+        apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        projectId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        storageBucket: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        appId: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+        measurementId: "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
 
