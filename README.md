@@ -9,7 +9,7 @@ There are two parts:
         <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 #### 2- Adding the config to,
-- Either your end of your html like this:
+- Either to the end of your index.html like this:
 
         <script>
         var firebaseConfig = {
