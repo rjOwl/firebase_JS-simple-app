@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+    </head>
+    <body >
+        <h1>Caffè Menu</h1>
+        <div class="content">
+            <form id="add-cafe-form">
+              <input required type="text" name="type" placeholder="Coffe type"> </ipnut>
+              <input required type="text" name="price" placeholder="Coffe price"> </ipnut>
+              <button class="change">Add</button>
+            </form>
+            <ul id="cafe-list"></ul>
+            <img class="fix-left" src="./s3.png"  width="300px"/>
+
+            <!-- <img src="./s3.png" class="fix-right"/> -->
+
+    </body>
+</html>
+
+
+<script src="firebaseConfig.js"></script>
+<script src="app.js"></script>
