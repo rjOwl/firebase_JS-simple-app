@@ -41,3 +41,8 @@ There are two parts:
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
 
+
+
+
+[For GitHub readme tricks visit this cool cheatsheet.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
